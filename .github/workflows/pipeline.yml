@@ -22,7 +22,7 @@ jobs:
     - name: Install dependencies
       run: npm install
     - name: Run integration unit tests
-      run: npm test:unit
+      run: npm run test:unit
     - name: Display softuni username
       run: echo "ocp1234"
     
